@@ -1,0 +1,139 @@
+body {
+    background-color: whitesmoke;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.logo {
+    width: auto;
+    height: 100px;
+    margin-left: 30px;
+}
+
+.links {
+    text-decoration: none;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+    
+ 
+}
+
+li {
+    margin: 20px;
+}
+
+/* Header Styles */
+.header-container {
+    padding: 100px 80px 150px 80px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    color: #F9FAF8;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #E5E7EB;
+}
+
+.header-img {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 70px;
+    justify-content: center;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 8px 20px;
+    border-color: #3882F6;
+    color: #F9FAF8;
+}
+
+/* Information Styles */
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.random-information {
+    display: flex;
+    justify-content: center;
+    color: #3882F6;
+}
+
+.info img {
+    height: 200px;
+    border: solid 3px;
+    border-radius: 10px;
+    
+}
+
+.info {
+    margin: 30px;
+}
+
+.info p {
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+/* Quote Styles */
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 36px;
+    padding: 100px 200px 0px 200px;
+    font-weight: lighter;
+}
+
+.quote-by {
+    font-size: 30px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 250px;
+    padding-bottom: 80px;
+    padding: 10px 250px 80px 0px;
+    font-weight: bold;
+}
+
